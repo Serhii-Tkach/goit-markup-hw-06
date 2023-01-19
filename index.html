@@ -50,6 +50,38 @@
                     <use href="./images/symbol-defs.svg#Vector"></use>
                 </svg>
             </button>
+            <h2 class="modal-descriptin">Leave your contacts and we will call you back</h2>
+            <form class="modal-form">
+                <ul class="list description modal-list">
+                    <li class="form-field">
+                        <label for="name" class="field-description">Name
+                            <!-- <svg class="form-icon">
+                                <use href="./images/symbol-defs.svg#"Name></use>
+                            </svg> -->
+                        </label>
+                        <input type="text" name="name" id="name" autofocus autocomplete="name" class="form-place">
+                    </li>
+                    <li class="form-field">
+                        <label for="tel" class="field-description">Phone</label>
+                        <input type="text" name="tel" id="tel" autocomplete="tel" class="form-place">
+                    </li>
+                    <li class="form-field">
+                        <label for="mail" class="field-description">Email</label>
+                        <input type="text" name="mail" id="mail" autocomplete="mail" class="form-place">
+                    </li>
+                    <li class="comment">
+                        <label for="comment" class="field-description">Comment</label>
+                        <textarea name="comment" id="comment" rows="6" class="comment-window" placeholder="Text input"></textarea>
+                    </li>
+                    <li class="policy">
+                        <input type="checkbox" name="policy" id="policy">
+                        <label for="policy" class="policy-accept">I accept the terms and conditions of the <a href="" class="privacy-policy">Privacy Policy</a></label>
+                    </li>
+                </ul>
+                <div class="form-button">
+                    <button type="submit" class="button button-order">Send</button>
+                </div>
+            </form>
         </div>
     </div>
     
@@ -364,6 +396,12 @@
                     </li>
                 </ul>
             </div>
+            <form class="subscribe">
+                <h2 class="subscribe-text">Subscribe</h2>
+                <label for="sub-mail" class="secret-name">Email</label>
+                <input type="text" name="mail" id="sub-mail" autocomplete="mail" class="subscribe-place" placeholder="E-mail">
+                <button type="submit" class="subscribe-button">Subscribe</button>
+            </form>
        </div>
     </footer>
 
