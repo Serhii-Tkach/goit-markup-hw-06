@@ -330,7 +330,7 @@ body {
     transform: translate(-50%, -50%);
 
     width: 408px;
-    height: 576px;
+    height: 584px;
 
     background-color: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -368,6 +368,105 @@ body {
 .close-modal:hover .close-image,
 .close-modal:focus .close-image {
     fill: #FFFFFF;
+}
+
+.modal-descriptin {
+    margin-top: 0;
+    margin-bottom: 14px;
+    padding-top: 72px;
+
+    font-weight: var(--font-weight-body);
+    font-size: 16px;
+    
+    text-align: center;
+}
+
+.modal-list {
+    margin-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.field-description {
+    margin-bottom: 4px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.333;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+
+.form-place {
+    margin-bottom: 8px;
+    /* padding-left: 50px; */
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.comment-window {
+    padding: 0;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.comment ::placeholder {
+    padding-top: 8px;
+    padding-left: 16px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.333;
+
+    letter-spacing: 0.04em;
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.policy {
+    display: flex;
+    align-items: center;
+}
+
+.modal-list input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.policy-accept {
+    padding-left: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.333;
+
+    letter-spacing: 0.04em;
+    color: #757575;
+}
+
+.privacy-policy {
+    color: var(--primary-brand-color);
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
 }
 
 /* Цінності компанії */
@@ -605,7 +704,8 @@ img {
     margin-left: 120px;
 }
 
-.social {
+.social, 
+.subscribe-text {
     margin: 0;
     margin-bottom: 16px;
 
@@ -651,6 +751,46 @@ img {
 .our-company-icon {
     width: 24px;
     height: 24px;
+}
+
+.subscribe {
+    margin-left: 80px;    
+}
+
+.subscribe-place {
+    margin-right: 24px;
+    padding-left: 16px;
+    width: 264px;
+    height: 40px;
+
+    background-color: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.subscribe input::placeholder {
+    display: flex;
+    align-items: center;
+    
+    letter-spacing: 0.04em;
+    font-size: 12px;
+    line-height: 2;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-button {
+    border: 0;
+    padding: 8px 64px 8px 24px;
+
+    line-height: 1.5;
+
+    background-color: var(--primary-brand-color);
+    color: #FFFFFF;
+    border-radius: 4px;
+
+    cursor: pointer;
 }
 
 /* Кнопки фільтрів */
